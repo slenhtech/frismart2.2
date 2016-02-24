@@ -12,3 +12,9 @@
        -o-transition: all $duration ease;
           transition: all $duration ease;
 }
+@mixin highlight($color){
+  -webkit-box-shadow: 0 0 5px $color;
+     -moz-box-shadow: 0 0 5px $color;
+       -o-box-shadow: 0 0 5px $color;
+          box-shadow: 0 0 5px $color;
+}

@@ -1,0 +1,52 @@
+#header { background-color: #393939; }
+#header nav { padding: 10px 0; }
+#header nav #menu-toggle { color: #fff; padding: 10px; cursor: pointer; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; border-radius: 5px; border: solid 1px #393939; background: #393939; }
+#header nav #menu-toggle:hover, #header nav #menu-toggle:focus { border-color: #0481b5; }
+
+section .heading { text-align: center; padding: 20px 0; }
+
+#section-recherche { padding: 60px 0 100px; /*background: #eee;*/ background-position: center; position: relative; }
+#section-recherche .banniere-pub { width: 100%; height: 450px; background-size: cover; background-position: center; }
+#section-recherche .heading h1 { font-size: 50px; line-height: 49px; text-transform: uppercase; margin-bottom: 5px; }
+#section-recherche .heading p { font-size: 20px; }
+#section-recherche form { padding: 10px; background: rgba(0, 0, 0, 0.8); }
+#section-recherche form input[type='text'] { border: solid 1px #ddd; display: inline-block; vertical-align: top; padding: 10px; }
+#section-recherche form input:first-of-type { padding-left: 20px; border-right: none; -webkit-border-radius: 50px 0 0 50px; -moz-border-radius: 50px 0 0 50px; -o-border-radius: 50px 0 0 50px; -ms-border-radius: 50px 0 0 50px; border-radius: 50px 0 0 50px; }
+#section-recherche form button { padding: 10px; -webkit-border-radius: 0 50px 50px 0; -moz-border-radius: 0 50px 50px 0; -o-border-radius: 0 50px 50px 0; -ms-border-radius: 0 50px 50px 0; border-radius: 0 50px 50px 0; }
+
+#section-recherche.pub { padding: 0; }
+#section-recherche.pub .heading { display: none; }
+
+#section-meilleur-frismart .categories .col-sm-3 { max-height: 250px; padding: 10px; overflow: hidden; text-align: center; background-size: cover; background-position: center; height: 180px; position: relative; }
+#section-meilleur-frismart .categories .col-sm-3 a { text-decoration: none; color: #fff; position: absolute; height: 100%; width: 100%; padding: 40px 10px 0; left: 0; top: 0; z-index: 2; }
+#section-meilleur-frismart .categories .col-sm-3 a h4 { text-transform: capitalize; font-weight: 700; }
+#section-meilleur-frismart .categories .col-sm-3 a p { font-size: 14px; }
+#section-meilleur-frismart .categories .col-sm-3:after { content: ''; display: block; position: absolute; width: 100%; height: 100%; z-index: 1; top: 0; left: 0; background: rgba(0, 0, 0, 0.5); }
+
+#section-a-la-une .container .info-entreprise { display: block; background-size: cover; }
+#section-a-la-une .container a { display: block; height: 150px; padding: 20px; color: #fff; }
+#section-a-la-une .container a:hover { text-decoration: none; }
+#section-a-la-une .container footer { padding: 10px; background: #fff; }
+#section-a-la-une .container footer .stars, #section-a-la-une .container footer .note, #section-a-la-une .container footer .favoris { display: inline-block; vertical-align: top; padding: 5px; }
+#section-a-la-une .container footer .stars { font-size: 18px; color: #0481b5; }
+#section-a-la-une .container footer .note { font-size: 12px; border-radius: 50px; background: #0481b5; color: #fff; }
+#section-a-la-une .container footer .favoris { font-size: 16px; color: #d3250e; }
+
+.section-text-image { position: relative; padding-bottom: 30px; }
+.section-text-image .container .text { padding: 100px 0; }
+.section-text-image .container .image { position: absolute; height: 100%; width: 50%; left: 0; top: 0; background-repeat: no-repeat; background-size: cover; background-position: center; }
+
+.section-video-text { position: relative; padding-bottom: 30px; }
+.section-video-text .container .text { padding: 100px 0; }
+.section-video-text .container .image { position: absolute; height: 100%; width: 50%; left: 0; top: 0; background-repeat: no-repeat; background-size: cover; background-position: center; }
+
+@media (max-width: 768px) { #section-recherche .heading h1 { font-size: 30px; line-height: 30px; text-transform: uppercase; margin-bottom: 5px; }
+  #section-recherche .heading p { font-size: 16px; }
+  #section-recherche form input:first-of-type { padding-left: 10px; -webkit-border-radius: 0; -moz-border-radius: 0; -o-border-radius: 0; -ms-border-radius: 0; border-radius: 0; }
+  #section-recherche form button { -webkit-border-radius: 0; -moz-border-radius: 0; -o-border-radius: 0; -ms-border-radius: 0; border-radius: 0; }
+  .section-text-image .container .text { padding: 10px 0; }
+  .section-text-image .container .image { position: relative; min-height: 400px; width: 100%; left: 0; top: 0; background-repeat: no-repeat; background-size: contain; background-position: center center; }
+  .section-video-text .container .text { padding: 10px 0; }
+  .section-video-text .container .image { position: relative; height: 300px; width: 100%; left: 0; top: 0; background-repeat: no-repeat; background-size: contain; background-position: center center; } }
+
+/*# sourceMappingURL=accueil.css.map */

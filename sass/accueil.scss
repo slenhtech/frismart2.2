@@ -1,0 +1,274 @@
+$bleu_frismart:#0481b5;
+$noir: #393939;
+$red: #d3250e;
+
+@import "mixins";
+
+
+#header{
+  background-color: $noir;
+  nav{
+    padding: 10px 0;
+
+    #menu-toggle{
+      color: #fff;
+      padding: 10px;
+      cursor: pointer;
+      @include border-radius(5px);
+      border: solid 1px $noir;
+      background: $noir;
+    }
+    #menu-toggle:hover,
+    #menu-toggle:focus{
+      border-color: $bleu_frismart;
+    }
+  }
+}
+section{
+  .heading{
+    text-align: center;
+    padding: 20px 0;
+  }
+}
+#section-recherche{
+  padding: 60px 0 100px;
+  /*background: #eee;*/
+  background-position: center;
+  position: relative;
+
+  .banniere-pub{
+    width: 100%;
+    height: 450px;
+    background-size:cover;
+    background-position: center;
+  }
+
+  .heading{
+    h1{
+      font-size: 50px;
+      line-height: 49px;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+    p{
+      font-size: 20px;
+    }
+  }
+
+  form{
+
+    padding: 10px;
+    background: rgba(#000,0.8);
+    input[type='text']{
+      border: solid 1px #ddd;
+      display: inline-block;
+      vertical-align: top;
+      padding: 10px;
+    }
+    input:first-of-type{
+      padding-left: 20px;
+      border-right: none;
+      @include border-radius(50px 0 0 50px);
+    }
+    button{
+      padding: 10px;
+      @include border-radius(0 50px 50px 0);
+    }
+  }
+}
+#section-recherche.pub{
+  padding: 0;
+  .heading{
+    display: none;
+  }
+}
+#section-meilleur-frismart{
+  .categories{
+    .col-sm-3{
+      max-height: 250px;
+      padding: 10px;
+      overflow: hidden;
+      text-align: center;
+      background-size: cover;
+      background-position: center;
+      height: 180px;
+      position: relative;
+
+
+      a{
+        text-decoration: none;
+        color: #fff;
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        padding: 40px 10px 0;
+        left: 0;
+        top: 0;
+        z-index: 2;
+
+        h4{
+          text-transform: capitalize;
+          font-weight: 700;
+        }
+        p{
+          font-size: 14px;
+        }
+      }
+    }
+    .col-sm-3:after{
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background: rgba(#000, 0.5);
+    }
+  }
+}
+
+#section-a-la-une{
+ .container{
+   .info-entreprise{
+     display: block;
+     background-size: cover;
+   }
+   a{
+     display: block;
+     height: 150px;
+     padding: 20px;
+     color: #fff;
+   }
+   a:hover{
+     text-decoration: none;
+   }
+   footer{
+     padding: 10px;
+     background: #fff;
+     .stars,
+     .note,
+     .favoris{
+       display: inline-block;
+       vertical-align: top;
+       padding: 5px;
+     }
+     .stars{
+       font-size: 18px;
+       color: $bleu_frismart;
+     }
+     .note{
+       font-size: 12px;
+       border-radius: 50px;
+       background: $bleu_frismart;
+       color: #fff;
+     }
+     .favoris{
+       font-size: 16px;
+       color: $red
+     }
+   }
+   .col-sm-4{
+     //@include highlight(red);
+   }
+ }
+}
+
+.section-text-image{
+  position: relative;
+  padding-bottom: 30px;
+  .container{
+    .text{
+      padding: 100px 0;
+    }
+    .image{
+      position: absolute;
+      height: 100%;
+      width: 50%;
+      left: 0;
+      top: 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}
+.section-video-text{
+  position: relative;
+  padding-bottom: 30px;
+  .container{
+    .text{
+      padding: 100px 0;
+    }
+    .image{
+      position: absolute;
+      height: 100%;
+      width: 50%;
+      left: 0;
+      top: 0;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+    }
+  }
+}
+@media (max-width: 768px) {
+
+  #section-recherche{
+    .heading{
+      h1{
+        font-size: 30px;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+      }
+      p{
+        font-size: 16px;
+      }
+    }
+    form{
+      input:first-of-type{
+        padding-left: 10px;
+        @include border-radius(0);
+      }
+      button{
+        @include border-radius(0);
+      }
+    }
+  }
+  .section-text-image{
+    .container{
+      .text{
+        padding: 10px 0;
+      }
+      .image{
+        position: relative;
+        min-height: 400px;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+      }
+    }
+  }
+  .section-video-text{
+    .container{
+      .text{
+        padding: 10px 0;
+      }
+      .image{
+        position: relative;
+        height: 300px;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center center;
+      }
+    }
+  }
+}
