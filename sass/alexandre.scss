@@ -1,0 +1,55 @@
+$bleu_frismart:#0481b5;
+$noir: #393939;
+
+
+@import "mixins";
+
+
+header{
+  background-color: $noir;
+  nav{
+    padding: 10px 0;
+
+    #menu-toggle{
+      color: #fff;
+      padding: 10px;
+      cursor: pointer;
+      @include border-radius(5px);
+      border: solid 1px $noir;
+      background: $noir;
+    }
+    #menu-toggle:hover,
+    #menu-toggle:focus{
+      border-color: $bleu_frismart;
+    }
+  }
+}
+#section-recherche{
+  height: 400px;
+  background: #eee;
+  background-size: cover;
+  position: relative;
+
+  .heading{
+    h1{
+      font-size: 50px;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+    p{
+      font-size: 20px;
+    }
+  }
+
+  form{
+    input[type='text']{
+      border: solid 1px #ddd;
+      display: inline-block;
+      vertical-align: top;
+      padding: 10px;
+    }
+    button{
+      padding: 10px;
+    }
+  }
+}
