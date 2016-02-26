@@ -1,26 +1,115 @@
 $bleu_frismart:#0481b5;
 $noir: #393939;
 $red: #d3250e;
+$logo_pin_width: 35px;
 
 @import "mixins";
+@import "hidden-portrait";
+body{
+  font-family: 'Open Sans', sans-serif !important;
+}
 
 
 #header{
-  background-color: $noir;
+  background-color: #fff;
+  .container{
+    position: relative;
+  }
+  #block-meteo{
+    position: absolute;
+    top:56px;
+    right: 0;
+    z-index: 100;
+    color: #fff;
+
+    .icon,
+    .weather-info{
+      display: inline-block;
+      vertical-align: top;
+      background: rgba(#000,0.7);
+      height: 75px;
+      padding: 10px 20px;
+    }
+    .icon{
+      margin-right: -3px;
+      text-align: center;
+
+      .we{
+        font-size: 30px;
+        font-weight: bold;
+      }
+    }
+    .weather-info{
+      text-align: right;
+      .city{
+        font-weight: 700;
+        font-size: 16px;
+      }
+      .city:before{
+        content: '\f041';
+        font-family: 'FontAwesome';
+        margin-right: 10px;
+        font-size: 19px;
+        line-height: 19px;
+      }
+      .description{
+        font-size: 13px;
+      }
+    }
+
+    i{
+      font-style: normal;
+    }
+  }
+
   nav{
-    padding: 10px 0;
+    padding: 10px;
+
+    #nav-logo{
+      color: $bleu_frismart;
+      position: relative;
+      display: inline-block;
+      font-size: 20px;
+      font-family: "Arial", sans-serif;
+      font-weight: 700;
+      padding-left: $logo_pin_width;
+
+      i{
+        font-style: normal;
+        color: $noir;color: $noir;
+      }
+
+      small{
+        position: absolute;
+        left: $logo_pin_width;
+        top: 20px;
+        font-size: 16px;
+        font-weight: normal;
+      }
+    }
+    #nav-logo:before{
+      content: 'b';
+      font-family: 'sltc';
+      font-size: 34px;
+      width: 20px;
+      display: block;
+      position: absolute;
+      color: $bleu_frismart;
+      left: 0;
+      top:-5px;
+    }
 
     #menu-toggle{
-      color: #fff;
+      color: #ccc;
       padding: 10px;
       cursor: pointer;
       @include border-radius(5px);
-      border: solid 1px $noir;
-      background: $noir;
+      border: solid 1px #fff;
+      background: #fff;
     }
     #menu-toggle:hover,
     #menu-toggle:focus{
-      border-color: $bleu_frismart;
+      border-color: #eee;
     }
   }
 }
@@ -33,6 +122,7 @@ section{
 #section-recherche{
   padding: 60px 0 100px;
   /*background: #eee;*/
+  background-size: cover;
   background-position: center;
   position: relative;
 
@@ -44,6 +134,7 @@ section{
   }
 
   .heading{
+    text-shadow: 0 1px 5px rgba(#000, 0.5);
     h1{
       font-size: 50px;
       line-height: 49px;
@@ -58,7 +149,7 @@ section{
   form{
 
     padding: 10px;
-    background: rgba(#000,0.8);
+    background: rgba(#000,0.5);
     input[type='text']{
       border: solid 1px #ddd;
       display: inline-block;
@@ -73,6 +164,8 @@ section{
     button{
       padding: 10px;
       @include border-radius(0 50px 50px 0);
+      background: $bleu_frismart;
+      color: #fff;
     }
   }
 }
@@ -241,6 +334,13 @@ section{
       button{
         @include border-radius(0);
       }
+    }
+  }
+
+  #section-recherche.pub{
+    padding: 60px 0 100px;
+    .heading{
+      display: block;
     }
   }
   .section-text-image{

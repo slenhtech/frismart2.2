@@ -1,18 +1,36 @@
-#header { background-color: #393939; }
-#header nav { padding: 10px 0; }
-#header nav #menu-toggle { color: #fff; padding: 10px; cursor: pointer; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; border-radius: 5px; border: solid 1px #393939; background: #393939; }
-#header nav #menu-toggle:hover, #header nav #menu-toggle:focus { border-color: #0481b5; }
+@media (max-width: 400px) { .hidden-portrait { display: none; } }
+body { font-family: 'Open Sans', sans-serif !important; }
+
+#header { background-color: #fff; }
+#header .container { position: relative; }
+#header #block-meteo { position: absolute; top: 56px; right: 0; z-index: 100; color: #fff; }
+#header #block-meteo .icon, #header #block-meteo .weather-info { display: inline-block; vertical-align: top; background: rgba(0, 0, 0, 0.7); height: 75px; padding: 10px 20px; }
+#header #block-meteo .icon { margin-right: -3px; text-align: center; }
+#header #block-meteo .icon .we { font-size: 30px; font-weight: bold; }
+#header #block-meteo .weather-info { text-align: right; }
+#header #block-meteo .weather-info .city { font-weight: 700; font-size: 16px; }
+#header #block-meteo .weather-info .city:before { content: '\f041'; font-family: 'FontAwesome'; margin-right: 10px; font-size: 19px; line-height: 19px; }
+#header #block-meteo .weather-info .description { font-size: 13px; }
+#header #block-meteo i { font-style: normal; }
+#header nav { padding: 10px; }
+#header nav #nav-logo { color: #0481b5; position: relative; display: inline-block; font-size: 20px; font-family: "Arial", sans-serif; font-weight: 700; padding-left: 35px; }
+#header nav #nav-logo i { font-style: normal; color: #393939; color: #393939; }
+#header nav #nav-logo small { position: absolute; left: 35px; top: 20px; font-size: 16px; font-weight: normal; }
+#header nav #nav-logo:before { content: 'b'; font-family: 'sltc'; font-size: 34px; width: 20px; display: block; position: absolute; color: #0481b5; left: 0; top: -5px; }
+#header nav #menu-toggle { color: #ccc; padding: 10px; cursor: pointer; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; border-radius: 5px; border: solid 1px #fff; background: #fff; }
+#header nav #menu-toggle:hover, #header nav #menu-toggle:focus { border-color: #eee; }
 
 section .heading { text-align: center; padding: 20px 0; }
 
-#section-recherche { padding: 60px 0 100px; /*background: #eee;*/ background-position: center; position: relative; }
+#section-recherche { padding: 60px 0 100px; /*background: #eee;*/ background-size: cover; background-position: center; position: relative; }
 #section-recherche .banniere-pub { width: 100%; height: 450px; background-size: cover; background-position: center; }
+#section-recherche .heading { text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5); }
 #section-recherche .heading h1 { font-size: 50px; line-height: 49px; text-transform: uppercase; margin-bottom: 5px; }
 #section-recherche .heading p { font-size: 20px; }
-#section-recherche form { padding: 10px; background: rgba(0, 0, 0, 0.8); }
+#section-recherche form { padding: 10px; background: rgba(0, 0, 0, 0.5); }
 #section-recherche form input[type='text'] { border: solid 1px #ddd; display: inline-block; vertical-align: top; padding: 10px; }
 #section-recherche form input:first-of-type { padding-left: 20px; border-right: none; -webkit-border-radius: 50px 0 0 50px; -moz-border-radius: 50px 0 0 50px; -o-border-radius: 50px 0 0 50px; -ms-border-radius: 50px 0 0 50px; border-radius: 50px 0 0 50px; }
-#section-recherche form button { padding: 10px; -webkit-border-radius: 0 50px 50px 0; -moz-border-radius: 0 50px 50px 0; -o-border-radius: 0 50px 50px 0; -ms-border-radius: 0 50px 50px 0; border-radius: 0 50px 50px 0; }
+#section-recherche form button { padding: 10px; -webkit-border-radius: 0 50px 50px 0; -moz-border-radius: 0 50px 50px 0; -o-border-radius: 0 50px 50px 0; -ms-border-radius: 0 50px 50px 0; border-radius: 0 50px 50px 0; background: #0481b5; color: #fff; }
 
 #section-recherche.pub { padding: 0; }
 #section-recherche.pub .heading { display: none; }
@@ -44,6 +62,8 @@ section .heading { text-align: center; padding: 20px 0; }
   #section-recherche .heading p { font-size: 16px; }
   #section-recherche form input:first-of-type { padding-left: 10px; -webkit-border-radius: 0; -moz-border-radius: 0; -o-border-radius: 0; -ms-border-radius: 0; border-radius: 0; }
   #section-recherche form button { -webkit-border-radius: 0; -moz-border-radius: 0; -o-border-radius: 0; -ms-border-radius: 0; border-radius: 0; }
+  #section-recherche.pub { padding: 60px 0 100px; }
+  #section-recherche.pub .heading { display: block; }
   .section-text-image .container .text { padding: 10px 0; }
   .section-text-image .container .image { position: relative; min-height: 400px; width: 100%; left: 0; top: 0; background-repeat: no-repeat; background-size: contain; background-position: center center; }
   .section-video-text .container .text { padding: 10px 0; }

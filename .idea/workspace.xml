@@ -2,49 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="85372b5d-9778-43f2-b0bd-18d6f259ceb9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/test/image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/.gitattributes" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/test/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/test/renderperf/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/.jshintrc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/.travis.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/README.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/bower.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/src/lib/renderers/canvas.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/src/lib/color.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/composer.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/src/lib/constants.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/test/detach.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/src/lib/dom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/test/renderperf/fps.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/gulpfile.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/holder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/test/holder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/test/renderperf/releases/holder-master/holder.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/holder.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/test/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/test/renderperf/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/src/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/src/lib/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/test/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/src/lib/vendor/ondomready.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/src/meteor/package.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/package.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/test/phantom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/src/lib/vendor/polyfills.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/src/lib/vendor/querystring.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/test/runner.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/src/lib/scenegraph.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/test/renderperf/setup.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/src/meteor/shim.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/src/lib/renderers/svg-dom.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/src/lib/renderers/svg-text.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/src/lib/svg.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/test/renderperf/testcase.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/holderjs/src/lib/utils.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/category-icons/fonts/Category-icons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/category-icons/fonts/Category-icons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/category-icons/fonts/Category-icons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/weather-icons/fonts/Weather-icons.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/weather-icons/fonts/Weather-icons.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/weather-icons/fonts/Weather-icons.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/pub-1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/sltc-icons/fonts/sltc.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/sltc-icons/fonts/sltc.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/sltc-icons/fonts/sltc.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/category-icons/fonts/Category-icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/weather-icons/fonts/Weather-icons.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sass/_hidden-portrait.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/category-icons/category-icons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/category-icons/ie7/ie7.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/category-icons/ie7/ie7.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/sltc-icons/sltc-icons.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/sltc-icons/fonts/sltc.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/plugins/weather-icons/weather-icons.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/accueil.css.map" afterPath="$PROJECT_DIR$/css/accueil.css.map" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/accueil.css" afterPath="$PROJECT_DIR$/css/accueil.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/accueil.scss" afterPath="$PROJECT_DIR$/sass/accueil.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -75,35 +54,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="accueil.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sass/accueil.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6216617">
-              <caret line="412" column="65" selection-start-line="412" selection-start-column="65" selection-end-line="412" selection-end-column="65" />
+            <state vertical-scroll-proportion="-25.653847">
+              <caret line="205" column="9" selection-start-line="205" selection-start-column="9" selection-end-line="205" selection-end-column="9" />
               <folding>
-                <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
-                <element signature="n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="e#276#1067#0" expanded="false" />
+                <element signature="e#2138#3072#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="accueil.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sass/accueil.scss">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.384615">
-              <caret line="218" column="0" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.20208023">
+              <caret line="102" column="20" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
               <folding>
-                <element signature="e#1339#1391#0" expanded="false" />
-                <element signature="e#1418#2246#0" expanded="false" />
-                <element signature="e#2265#2996#0" expanded="false" />
-                <element signature="e#3017#3337#0" expanded="false" />
-                <element signature="e#3357#3677#0" expanded="false" />
+                <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+                <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -113,7 +91,7 @@
         <entry file="file://$PROJECT_DIR$/css/accueil.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="36" column="187" selection-start-line="36" selection-start-column="187" selection-end-line="36" selection-end-column="187" />
+              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -128,6 +106,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/css/accueil.css" />
+        <option value="$PROJECT_DIR$/sass/_hidden-portrait.scss" />
         <option value="$PROJECT_DIR$/sass/accueil.scss" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
@@ -170,7 +149,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -227,13 +206,27 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="img" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frismart2.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="frismart2.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -242,11 +235,21 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../stabint" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\frismart2.2\plugins" />
+      <recent name="C:\wamp\www\frismart2.2" />
+      <recent name="C:\wamp\www\frismart2.2\img" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp\www\frismart2.2\plugins" />
     </key>
   </component>
@@ -292,8 +295,7 @@
     <frame x="-8" y="22" width="1616" height="886" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16645244" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17030849" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -307,6 +309,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -321,6 +324,17 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/sass/accueil.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#276#1067#0" expanded="false" />
+            <element signature="e#2138#3072#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/accueil.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -329,32 +343,120 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/sass/accueil.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.384615">
+        <state vertical-scroll-proportion="0.0">
           <caret line="218" column="0" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
           <folding>
-            <element signature="e#1339#1391#0" expanded="false" />
-            <element signature="e#1418#2246#0" expanded="false" />
-            <element signature="e#2265#2996#0" expanded="false" />
-            <element signature="e#3017#3337#0" expanded="false" />
-            <element signature="e#3357#3677#0" expanded="false" />
+            <element signature="e#276#1067#0" expanded="false" />
+            <element signature="e#2138#3072#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/accueil.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="187" selection-start-line="36" selection-start-column="187" selection-end-line="36" selection-end-column="187" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/accueil.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/font-awesome/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30792227">
+          <caret line="371" column="1" selection-start-line="371" selection-start-column="1" selection-end-line="371" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/_hidden-portrait.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09700428">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/img/restaurant-2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/plugins/category-icons/ie7/ie7.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1456500190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1456500190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1456500190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1456500190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1456500190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1456500190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1456500190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1456500190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1456500190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1456500190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1456500190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1456500190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1456500190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1456500190000" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sass/accueil.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.653847">
+          <caret line="205" column="9" selection-start-line="205" selection-start-column="9" selection-end-line="205" selection-end-column="9" />
+          <folding>
+            <element signature="e#276#1067#0" expanded="false" />
+            <element signature="e#2138#3072#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6216617">
-          <caret line="412" column="65" selection-start-line="412" selection-start-column="65" selection-end-line="412" selection-end-column="65" />
+        <state vertical-scroll-proportion="0.20208023">
+          <caret line="102" column="20" selection-start-line="102" selection-start-column="20" selection-end-line="102" selection-end-column="20" />
           <folding>
-            <element signature="n#section#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#section#1;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#section#2;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#4;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#5;n#body#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#section#6;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#7;n#body#0;n#html#0;n#!!top" expanded="false" />
+            <element signature="n#section#8;n#body#0;n#html#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>

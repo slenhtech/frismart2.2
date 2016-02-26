@@ -3,15 +3,30 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Frismart</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1 maximum-scale=1.0, user-scalable=no">
+    <meta name="google-site-verification" content="sMPP6XtfIorWeJWKs7HnDaR8-0-Ft6LfQdPvLuvwOeE" />
+    <meta name="msvalidate.01" content="13708E9E8CD70B629E3B50932FB7B29F" />
+    <meta http-equiv="Content-Language" content="fr" />
+    <meta name="author" content="Frismart International SAS">
+    <meta name="copyright" content="Frismart International SAS 2014-2016 by SlenhTech Corp. SAS">
+    <meta name="Identifier-url" content="http://www.frismart.com/">
+    <meta name="robots" content="index, follow all">
+    <meta name="audience" content="Tous">
+    <meta name="page-type" content="City Guide">
+    <meta name="expires" content="NEVER">
+    <meta property="fb:admins" content="515871842" />
+    <meta property="fb:page_id" content="608082299319628">
+    <title>Frismart | Accueil</title>
 
     <!-- Bootstrap -->
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
     <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="plugins/category-icons/category-icons.css" rel="stylesheet">
+    <link href="plugins/sltc-icons/sltc-icons.css" rel="stylesheet">
+    <link href="plugins/weather-icons/weather-icons.css" rel="stylesheet">
     <link href="css/accueil.css" rel="stylesheet">
-
+    <link href="favicon.ico" type="image/x-icon" rel="icon"/><link href="favicon.ico" type="image/x-icon" rel="shortcut icon"/>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -25,21 +40,37 @@
               Header
   ============================== -->
 
-
   <header id="header">
       <nav class="container">
         <button type="button" id="menu-toggle" class="fa fa-bars fa-lg"></button>
+        <a href="/frismart2.2" id="nav-logo"><i>FRI</i>SMART <small>Vis ta ville</small></a>
+
+        <!-- ============================
+                  Block météo
+        ============================== -->
+
+        <div id="block-meteo" class="hidden-portrait">
+          <div class="icon">
+            <div class="we we-03d"></div>
+            <div class="temperature">24&deg;C</div>
+          </div>
+          <div class="weather-info">
+            <div class="city">Libreville</div>
+            <div class="description">Légères pluies</div>
+          </div>
+        </div>
       </nav>
+
   </header>
 
   <!-- ============================
           Section recherche
   ============================== -->
 
-    <section id="section-recherche">
+    <section id="section-recherche" style="background-image: url('http://static5.pagesjaunes.fr/home/images/bg_fixe_tablette/bg_visuel_pb-79cb9e.jpg')">
       <!-- Rajouter la classe "pub" à la section-recherche pour pouvoir ajouter la bannière pub -->
-      <!--<div class="banniere-pub" style="background-image: url('img/1800x450.png')"></div>-->
-      <div class="heading text-center">
+      <!--<div class="banniere-pub hidden-xs" style="background-image: url('img/pub-1.jpg')"></div>-->
+      <div class="heading text-center" style="color: #fff">
         <h1>Lorem ipsum dolor sit amet</h1>
         <p>Mauris sapien nisi, sollicitudin vitae fermentum quis, sodales eget mauris.</p>
       </div>
