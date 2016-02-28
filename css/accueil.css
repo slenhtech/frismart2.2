@@ -1,5 +1,5 @@
 @media (max-width: 400px) { .hidden-portrait { display: none; } }
-body { font-family: 'Open Sans', sans-serif !important; }
+body { font-family: 'OpenSans-Regular', sans-serif !important; }
 
 #header { background-color: #fff; }
 #header .container { position: relative; }
@@ -9,14 +9,14 @@ body { font-family: 'Open Sans', sans-serif !important; }
 #header #block-meteo .icon .we { font-size: 30px; font-weight: bold; }
 #header #block-meteo .weather-info { text-align: right; }
 #header #block-meteo .weather-info .city { font-weight: 700; font-size: 16px; }
-#header #block-meteo .weather-info .city:before { content: '\f041'; font-family: 'FontAwesome'; margin-right: 10px; font-size: 19px; line-height: 19px; }
+#header #block-meteo .weather-info .city:before { content: '\f041'; font-family: 'FontAwesome', 'sans-serif'; margin-right: 10px; font-size: 19px; line-height: 19px; }
 #header #block-meteo .weather-info .description { font-size: 13px; }
 #header #block-meteo i { font-style: normal; }
 #header nav { padding: 10px; }
 #header nav #nav-logo { color: #0481b5; position: relative; display: inline-block; font-size: 20px; font-family: "Arial", sans-serif; font-weight: 700; padding-left: 35px; }
-#header nav #nav-logo i { font-style: normal; color: #393939; color: #393939; }
+#header nav #nav-logo i { font-style: normal; color: #393939; }
 #header nav #nav-logo small { position: absolute; left: 35px; top: 20px; font-size: 16px; font-weight: normal; }
-#header nav #nav-logo:before { content: 'b'; font-family: 'sltc'; font-size: 34px; width: 20px; display: block; position: absolute; color: #0481b5; left: 0; top: -5px; }
+#header nav #nav-logo:before { content: 'b'; font-family: 'sltc','sans-serif'; font-size: 34px; width: 20px; display: block; position: absolute; color: #0481b5; left: 0; top: -5px; }
 #header nav #menu-toggle { color: #ccc; padding: 10px; cursor: pointer; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; border-radius: 5px; border: solid 1px #fff; background: #fff; }
 #header nav #menu-toggle:hover, #header nav #menu-toggle:focus { border-color: #eee; }
 
@@ -35,11 +35,10 @@ section .heading { text-align: center; padding: 20px 0; }
 #section-recherche.pub { padding: 0; }
 #section-recherche.pub .heading { display: none; }
 
-#section-meilleur-frismart .categories .col-sm-3 { max-height: 250px; padding: 10px; overflow: hidden; text-align: center; background-size: cover; background-position: center; height: 180px; position: relative; }
-#section-meilleur-frismart .categories .col-sm-3 a { text-decoration: none; color: #fff; position: absolute; height: 100%; width: 100%; padding: 40px 10px 0; left: 0; top: 0; z-index: 2; }
-#section-meilleur-frismart .categories .col-sm-3 a h4 { text-transform: capitalize; font-weight: 700; }
-#section-meilleur-frismart .categories .col-sm-3 a p { font-size: 14px; }
-#section-meilleur-frismart .categories .col-sm-3:after { content: ''; display: block; position: absolute; width: 100%; height: 100%; z-index: 1; top: 0; left: 0; background: rgba(0, 0, 0, 0.5); }
+#section-meilleur-frismart .row .category { margin-bottom: 10px; display: block; background-size: cover; height: 180px; position: relative; }
+#section-meilleur-frismart .row .category a { text-align: center; color: #fff; display: block; padding: 30px 15px 0; position: relative; z-index: 2; }
+#section-meilleur-frismart .row .category a:hover { text-decoration: none; }
+#section-meilleur-frismart .row .category:after { content: ''; display: block; position: absolute; width: 100%; height: 100%; background: rgba(4, 129, 181, 0.3); z-index: 1; top: 0; left: 0; }
 
 #section-a-la-une .container .info-entreprise { display: block; background-size: cover; }
 #section-a-la-une .container a { display: block; height: 150px; padding: 20px; color: #fff; }
@@ -52,11 +51,10 @@ section .heading { text-align: center; padding: 20px 0; }
 
 .section-text-image { position: relative; padding-bottom: 30px; }
 .section-text-image .container .text { padding: 100px 0; }
-.section-text-image .container .image { position: absolute; height: 100%; width: 50%; left: 0; top: 0; background-repeat: no-repeat; background-size: cover; background-position: center; }
+.section-text-image .container .image .placeholder { position: relative; height: 400px; width: 100%; background-repeat: no-repeat !important; background-position: top !important; }
 
 .section-video-text { position: relative; padding-bottom: 30px; }
 .section-video-text .container .text { padding: 100px 0; }
-.section-video-text .container .image { position: absolute; height: 100%; width: 50%; left: 0; top: 0; background-repeat: no-repeat; background-size: cover; background-position: center; }
 
 @media (max-width: 768px) { #section-recherche .heading h1 { font-size: 30px; line-height: 30px; text-transform: uppercase; margin-bottom: 5px; }
   #section-recherche .heading p { font-size: 16px; }

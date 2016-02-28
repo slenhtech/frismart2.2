@@ -19,7 +19,7 @@
     <title>Frismart | Accueil</title>
 
     <!-- Bootstrap -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link href='fonts/OpenSans-Regular/OpenSans-Regular.css' rel='stylesheet' type='text/css'>
     <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="plugins/category-icons/category-icons.css" rel="stylesheet">
@@ -43,7 +43,14 @@
   <header id="header">
       <nav class="container">
         <button type="button" id="menu-toggle" class="fa fa-bars fa-lg"></button>
-        <a href="/frismart2.2" id="nav-logo"><i>FRI</i>SMART <small>Vis ta ville</small></a>
+        <a href="index.html" id="nav-logo"><i>FRI</i>SMART <small>Vis ta ville</small></a>
+
+        <div class="pull-right hidden-xs">
+          <div class="btn-group">
+            <button class="btn btn-default btn-xs"><i class="fa fa-sign-in"></i> Se connecter</button>
+            <button class="btn btn-default btn-xs"><i class="fa fa-user-plus"></i> S'enregistrer</button>
+          </div>
+        </div>
 
         <!-- ============================
                   Block météo
@@ -67,7 +74,7 @@
           Section recherche
   ============================== -->
 
-    <section id="section-recherche" style="background-image: url('http://static5.pagesjaunes.fr/home/images/bg_fixe_tablette/bg_visuel_pb-79cb9e.jpg')">
+    <section id="section-recherche" style="background-image: url('http://static5.pagesjaunes.fr/home/images/bg_fixe_tablette/bg_visuel_pb-79cb9e.jpg'), url('img/ban.jpg')">
       <!-- Rajouter la classe "pub" à la section-recherche pour pouvoir ajouter la bannière pub -->
       <!--<div class="banniere-pub hidden-xs" style="background-image: url('img/pub-1.jpg')"></div>-->
       <div class="heading text-center" style="color: #fff">
@@ -96,57 +103,73 @@
         <p>Suspendisse varius suscipit imperdiet. Etiam lobortis nibh tincidunt.</p>
       </div>
       <div class="container">
-        <div class="row categories">
-          <div class="col-xs-6 col-sm-3" style="background-image: url('img/restaurant.jpg')">
-            <a href="#">
-              <h4>Restaurant</h4>
-              <p>Lorem ipsum dolor sit amet consectetur</p>
-            </a>
-          </div>
-          <div class="col-xs-6 col-sm-3" style="background-image: url('img/hotel.jpg')">
-            <a href="#">
-              <h4>H&ocirc;tel</h4>
-              <p>Phasellus risus lorem, iaculis eu augue quis</p>
-            </a>
+        <div class="row">
+          <div class="col-xs-6 col-sm-3">
+            <div class="category" style="background-image: url('img/restaurant.jpg');">
+              <a href="#">
+                <h4>Restaurant</h4>
+                <p>Lorem ipsum dolor sit amet consectetur</p>
+              </a>
+            </div>
           </div>
           <div class="col-xs-6 col-sm-3">
-            <a href="#">
-              <h4>Bar</h4>
-              <p>elementum in maximus eget, facilisis ut elit</p>
-            </a>
+            <div class="category" style="background-image: url('img/hotel.jpg');">
+              <a href="#">
+                <h4>H&ocirc;tel</h4>
+                <p>Phasellus risus lorem, iaculis eu augue quis</p>
+              </a>
+            </div>
           </div>
           <div class="col-xs-6 col-sm-3">
-            <a href="#">
-              <h4>Shopping</h4>
-              <p>Nulla sodales semper hendrerit. Duis id odio non massa pulvinar</p>
-            </a>
+            <div class="category" style="background-image: url('img/hotel.jpg');">
+              <a href="#">
+                <h4>Bar</h4>
+                <p>elementum in maximus eget, facilisis ut elit</p>
+              </a>
+            </div>
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <div class="category" style="background-image: url('img/hotel.jpg');">
+              <a href="#">
+                <h4>Shopping</h4>
+                <p>Nulla sodales semper hendrerit. Duis id odio non massa pulvinar</p>
+              </a>
+            </div>
           </div>
         </div>
 
-        <div class="row categories">
+        <div class="row">
           <div class="col-xs-6 col-sm-3">
-            <a href="#">
-              <h4>Salon de th&eacute;</h4>
-              <p>Ut sed diam aliquam diam accumsan viverra vestibulum nec tortor</p>
-            </a>
+            <div class="category" style="background-image: url('img/restaurant.jpg');">
+              <a href="#">
+                <h4>Salon de th&eacute;</h4>
+                <p>Ut sed diam aliquam diam accumsan viverra vestibulum nec tortor</p>
+              </a>
+            </div>
           </div>
           <div class="col-xs-6 col-sm-3">
-            <a href="#">
-              <h4>Banque</h4>
-              <p>Mauris consequat placerat molestie. Vivamus pulvinar erat</p>
-            </a>
+            <div class="category" style="background-image: url('img/hotel.jpg');">
+              <a href="#">
+                <h4>Banque</h4>
+                <p>Mauris consequat placerat molestie. Vivamus pulvinar erat</p>
+              </a>
+            </div>
           </div>
           <div class="col-xs-6 col-sm-3">
-            <a href="#">
-              <h4>Pharmacie</h4>
-              <p>Suspendisse varius suscipit imperdiet. Etiam lobortis</p>
-            </a>
+            <div class="category" style="background-image: url('img/hotel.jpg');">
+              <a href="#">
+                <h4>Pharmacie</h4>
+                <p>Suspendisse varius suscipit imperdiet. Etiam lobortis</p>
+              </a>
+            </div>
           </div>
           <div class="col-xs-6 col-sm-3">
-            <a href="#">
-              <h4>Salle de sport</h4>
-              <p>Praesent pharetra ultricies mi, sed blandit sem tincidunt vel</p>
-            </a>
+            <div class="category" style="background-image: url('img/hotel.jpg');">
+              <a href="#">
+                <h4>Salle de sport</h4>
+                <p>Praesent pharetra ultricies mi, sed blandit sem tincidunt vel</p>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -313,28 +336,30 @@
   <!-- ============================
         Section text-image
   ============================== -->
-    <section class="section-text-image">
+    <section class="hidden-xs section-text-image">
       <div class="container">
-        <div class="col-xs-12 col-sm-6 text">
+        <div class="col-sm-6 text">
           <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h3>
           <p>Phasellus risus lorem, iaculis eu augue quis, sollicitudin viverra nunc. Sed malesuada est et mauris feugiat, ut eleifend felis eleifend.Quisque tincidunt justo et risus posuere, non tempor dui pulvinar.</p>
           <button class="btn btn-lg">En savoir plus</button>
         </div>
-        <div class="col-xs-12 col-sm-6 col-sm-offset-6 image" style="background: url('img/restaurant-2.jpg') no-repeat"></div>
+        <div class="col-sm-6 image">
+          <div class="placeholder" style="background: url('img/restaurant-2.jpg')"></div>
+        </div>
       </div>
     </section>
   <!-- ============================
         Section video-text
   ============================== -->
-    <section class="section-video-text">
+    <section class="hidden-xs section-video-text">
       <div class="container">
-        <div class="col-xs-12 col-sm-6 col-sm-push-6 text">
+        <div class="col-sm-6 col-sm-push-6 text">
           <h3>Ut tortor ipsum, elementum in maximus eget</h3>
           <p>Mauris quis sollicitudin dolor. Nulla sodales semper hendrerit. Duis id odio non massa pulvinar venenatis in a libero.</p>
           <button class="btn btn-lg">En savoir plus</button>
         </div>
-        <div class="col-xs-12 col-sm-6 col-sm-pull-6 image">
-          <iframe width="100%" height="100%" src="https://www.youtube.com/embed/KUt2AF6U0VI?rel=0" frameborder="0" allowfullscreen></iframe>
+        <div class="col-sm-6 col-sm-pull-6 image">
+          <iframe width="100%" height="400" src="https://www.youtube.com/embed/KUt2AF6U0VI?rel=0" frameborder="0" allowfullscreen></iframe>
         </div>
       </div>
     </section>
@@ -342,14 +367,16 @@
   <!-- ============================
         Section text-image
   ============================== -->
-  <section class="section-text-image">
+  <section class="hidden-xs section-text-image" style="background: url('img/businessman-1.jpg') no-repeat 80%;">
     <div class="container">
       <div class="col-xs-12 col-sm-6 text">
         <h3>FRISMART Pro center,<br/>Aliquam convallis, erat non</h3>
         <p>Suspendisse varius suscipit imperdiet. Etiam lobortis nibh tincidunt dui commodo euismod.</p>
         <button class="btn btn-lg">En savoir plus</button>
-      </div>
-      <div class="col-xs-12 col-sm-6 col-sm-offset-6 image" style="background: url('img/businessman-1.jpg') no-repeat"></div>
+      </div><!--
+      <div class="col-sm-6 image">
+        <div class="placeholder"></div>
+      </div>-->
     </div>
   </section>
 

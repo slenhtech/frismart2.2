@@ -6,7 +6,7 @@ $logo_pin_width: 35px;
 @import "mixins";
 @import "hidden-portrait";
 body{
-  font-family: 'Open Sans', sans-serif !important;
+  font-family: 'OpenSans-Regular', sans-serif !important;
 }
 
 
@@ -47,7 +47,7 @@ body{
       }
       .city:before{
         content: '\f041';
-        font-family: 'FontAwesome';
+        font-family: 'FontAwesome', 'sans-serif';
         margin-right: 10px;
         font-size: 19px;
         line-height: 19px;
@@ -76,7 +76,7 @@ body{
 
       i{
         font-style: normal;
-        color: $noir;color: $noir;
+        color: $noir;
       }
 
       small{
@@ -89,7 +89,7 @@ body{
     }
     #nav-logo:before{
       content: 'b';
-      font-family: 'sltc';
+      font-family: 'sltc','sans-serif';
       font-size: 34px;
       width: 20px;
       display: block;
@@ -176,48 +176,36 @@ section{
   }
 }
 #section-meilleur-frismart{
-  .categories{
-    .col-sm-3{
-      max-height: 250px;
-      padding: 10px;
-      overflow: hidden;
-      text-align: center;
+  .row{
+    .category{
+      margin-bottom: 10px;
+      display: block;
       background-size: cover;
-      background-position: center;
       height: 180px;
       position: relative;
-
-
       a{
-        text-decoration: none;
+        text-align: center;
         color: #fff;
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        padding: 40px 10px 0;
-        left: 0;
-        top: 0;
+        display: block;
+        padding: 30px 15px 0;
+        position: relative;
         z-index: 2;
 
-        h4{
-          text-transform: capitalize;
-          font-weight: 700;
-        }
-        p{
-          font-size: 14px;
-        }
+      }
+      a:hover{
+        text-decoration: none;
       }
     }
-    .col-sm-3:after{
+    .category:after{
       content: '';
       display: block;
       position: absolute;
       width: 100%;
       height: 100%;
+      background: rgba($bleu_frismart, 0.3);
       z-index: 1;
       top: 0;
       left: 0;
-      background: rgba(#000, 0.5);
     }
   }
 }
@@ -276,14 +264,13 @@ section{
       padding: 100px 0;
     }
     .image{
-      position: absolute;
-      height: 100%;
-      width: 50%;
-      left: 0;
-      top: 0;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
+      .placeholder{
+        position: relative;
+        height: 400px;
+        width: 100%;
+        background-repeat: no-repeat !important;
+        background-position: top !important;
+      }
     }
   }
 }
@@ -293,16 +280,6 @@ section{
   .container{
     .text{
       padding: 100px 0;
-    }
-    .image{
-      position: absolute;
-      height: 100%;
-      width: 50%;
-      left: 0;
-      top: 0;
-      background-repeat: no-repeat;
-      background-size: cover;
-      background-position: center;
     }
   }
 }
