@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Category-icons';
-    src:    url('fonts/Category-icons.eot?7wu8on');
-    src:    url('fonts/Category-icons.eot?7wu8on#iefix') format('embedded-opentype'),
-        url('fonts/Category-icons.ttf?7wu8on') format('truetype'),
-        url('fonts/Category-icons.woff?7wu8on') format('woff'),
-        url('fonts/Category-icons.svg?7wu8on#Category-icons') format('svg');
+    src:    url('fonts/Category-icons.eot?nrn8we');
+    src:    url('fonts/Category-icons.eot?nrn8we#iefix') format('embedded-opentype'),
+        url('fonts/Category-icons.ttf?nrn8we') format('truetype'),
+        url('fonts/Category-icons.woff?nrn8we') format('woff'),
+        url('fonts/Category-icons.svg?nrn8we#Category-icons') format('svg');
     font-weight: normal;
     font-style: normal;
 }
@@ -24,46 +24,115 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-.cat-banque:before {
+.cat-immobilier:before {
+    content: "\e921";
+}
+.cat-education:before {
+    content: "\e922";
+}
+.cat-autres:before {
+    content: "\e923";
+}
+.cat-silhouette:before {
+    content: "\e924";
+}
+.cat-eglise:before {
     content: "\e900";
 }
-.cat-the:before {
+.cat-banque:before {
     content: "\e901";
 }
-.cat-shopping:before {
+.cat-cinema:before {
     content: "\e902";
 }
-.cat-pharmacie-1:before {
+.cat-commerce:before {
     content: "\e903";
 }
-.cat-pharmacie-2:before {
+.cat-casino-2:before {
     content: "\e904";
 }
-.cat-bar-2:before {
+.cat-it-business:before {
     content: "\e905";
 }
-.cat-restaurant:before {
+.cat-bar:before {
     content: "\e906";
 }
-.cat-food-1:before {
+.cat-fast-food:before {
     content: "\e907";
 }
-.cat-the-2:before {
+.cat-cloth-shop:before {
     content: "\e908";
 }
-.cat-sport-1:before {
+.cat-restaurant:before {
     content: "\e909";
 }
-.cat-hotel:before {
+.cat-salon-de-the:before {
     content: "\e90a";
 }
-.cat-sign:before {
+.cat-pizzeria:before {
     content: "\e90b";
 }
-.cat-atm:before {
+.cat-patisserie:before {
     content: "\e90c";
 }
-.cat-shopping-2:before {
+.cat-station-service:before {
     content: "\e90d";
+}
+.cat-sport:before {
+    content: "\e90e";
+}
+.cat-clinique:before {
+    content: "\e90f";
+}
+.cat-hopital:before {
+    content: "\e910";
+}
+.cat-beaute-bien-etre:before {
+    content: "\e911";
+}
+.cat-administration:before {
+    content: "\e912";
+}
+.cat-casino:before {
+    content: "\e913";
+}
+.cat-opticien:before {
+    content: "\e914";
+}
+.cat-hotel:before {
+    content: "\e915";
+}
+.cat-person:before {
+    content: "\e916";
+}
+.cat-salon-de-coiffure:before {
+    content: "\e917";
+}
+.cat-aeroport:before {
+    content: "\e918";
+}
+.cat-parc:before {
+    content: "\e919";
+}
+.cat-shop:before {
+    content: "\e91a";
+}
+.cat-radio:before {
+    content: "\e91b";
+}
+.cat-divertissement:before {
+    content: "\e91c";
+}
+.cat-cinema-2:before {
+    content: "\e91d";
+}
+.cat-transport:before {
+    content: "\e91e";
+}
+.cat-car-service:before {
+    content: "\e91f";
+}
+.cat-voyage:before {
+    content: "\e920";
 }
 

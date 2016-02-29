@@ -1,43 +1,112 @@
-.cat-banque {
+.cat-immobilier {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe921;');
+}
+.cat-education {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe922;');
+}
+.cat-autres {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe923;');
+}
+.cat-silhouette {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe924;');
+}
+.cat-eglise {
     *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe900;');
 }
-.cat-the {
+.cat-banque {
     *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe901;');
 }
-.cat-shopping {
+.cat-cinema {
     *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe902;');
 }
-.cat-pharmacie-1 {
+.cat-commerce {
     *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe903;');
 }
-.cat-pharmacie-2 {
+.cat-casino-2 {
     *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe904;');
 }
-.cat-bar-2 {
+.cat-it-business {
     *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe905;');
 }
-.cat-restaurant {
+.cat-bar {
     *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe906;');
 }
-.cat-food-1 {
+.cat-fast-food {
     *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe907;');
 }
-.cat-the-2 {
+.cat-cloth-shop {
     *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe908;');
 }
-.cat-sport-1 {
+.cat-restaurant {
     *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe909;');
 }
-.cat-hotel {
+.cat-salon-de-the {
     *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90a;');
 }
-.cat-sign {
+.cat-pizzeria {
     *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90b;');
 }
-.cat-atm {
+.cat-patisserie {
     *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90c;');
 }
-.cat-shopping-2 {
+.cat-station-service {
     *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90d;');
+}
+.cat-sport {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90e;');
+}
+.cat-clinique {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe90f;');
+}
+.cat-hopital {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe910;');
+}
+.cat-beaute-bien-etre {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe911;');
+}
+.cat-administration {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe912;');
+}
+.cat-casino {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe913;');
+}
+.cat-opticien {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe914;');
+}
+.cat-hotel {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe915;');
+}
+.cat-person {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe916;');
+}
+.cat-salon-de-coiffure {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe917;');
+}
+.cat-aeroport {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe918;');
+}
+.cat-parc {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe919;');
+}
+.cat-shop {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91a;');
+}
+.cat-radio {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91b;');
+}
+.cat-divertissement {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91c;');
+}
+.cat-cinema-2 {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91d;');
+}
+.cat-transport {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91e;');
+}
+.cat-car-service {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe91f;');
+}
+.cat-voyage {
+    *zoom: expression(this.runtimeStyle['zoom'] = '1', this.innerHTML = '&#xe920;');
 }
 
