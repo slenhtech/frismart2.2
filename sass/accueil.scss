@@ -1,22 +1,8 @@
-$bleu_frismart:#0481b5;
-$noir: #393939;
-$red: #d3250e;
-$yellow: #ffc24f;
-$logo_pin_width: 35px;
-$light_gray: #f2f1ec;
-$darker_gray: #edece8;
-$darker_gray2: #676767;
-$dark_gray:#555555;
-
-@import "mixins";
+@import "colors";
+@import "functions";
 @import "hidden-portrait";
-body{
-  font-family: 'OpenSans-Regular', sans-serif !important;
-}
-a:hover,
-a:focus{
-  text-decoration: none !important;
-}
+
+
 .btn.btn-default{
   background: $bleu_frismart;
   color: #fff;
@@ -31,14 +17,17 @@ a:focus{
 
 #header{
   background-color: #fff;
+
   .container{
     position: relative;
   }
+
   .btn-group{
     .btn{
       border-color: #fff;
     }
   }
+
   #block-meteo{
     position: absolute;
     top:56px;
@@ -95,7 +84,6 @@ a:focus{
       display: inline-block;
       font-size: 20px;
       font-family: "Arial", sans-serif;
-      font-weight: 700;
       padding-left: $logo_pin_width;
 
       i{
@@ -107,10 +95,11 @@ a:focus{
         position: absolute;
         left: $logo_pin_width;
         top: 20px;
-        font-size: 16px;
+        font-size: 13px;
         font-weight: normal;
       }
     }
+
     #nav-logo:before{
       content: 'b';
       font-family: 'sltc','sans-serif';
@@ -430,29 +419,7 @@ section{
   }
 }
 
-#section-footer{
-  background: $dark_gray;
-  color: #fff !important;
-
-  a{
-    color: #b0b0a6;
-  }
-
-  .heading{
-    background: $darker_gray2;
-    background-size: cover;
-    padding: 30px 0 0;
-
-    a{
-      color: #fff;
-      margin: 0 20px;
-    }
-  }
-  #logo-footer{
-    color: #b0b0a6;
-    font-size: 12px;
-  }
-}
+@import "footer";
 @media (max-width: 768px) {
 
   #section-recherche{

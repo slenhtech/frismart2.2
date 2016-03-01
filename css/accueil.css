@@ -1,8 +1,8 @@
-@media (max-width: 400px) { .hidden-portrait { display: none; } }
+a:hover, a:focus { text-decoration: none; }
+
 body { font-family: 'OpenSans-Regular', sans-serif !important; }
 
-a:hover, a:focus { text-decoration: none !important; }
-
+@media (max-width: 400px) { .hidden-portrait { display: none; } }
 .btn.btn-default { background: #0481b5; color: #fff; border-radius: 0; border: none; -webkit-transition: all 0.3s ease; -moz-transition: all 0.3s ease; -ms-transition: all 0.3s ease; -o-transition: all 0.3s ease; transition: all 0.3s ease; }
 
 .btn.btn-default:hover { background: #393939; }
@@ -20,9 +20,9 @@ a:hover, a:focus { text-decoration: none !important; }
 #header #block-meteo .weather-info .description { font-size: 13px; }
 #header #block-meteo i { font-style: normal; }
 #header nav { padding: 10px; }
-#header nav #nav-logo { color: #0481b5; position: relative; display: inline-block; font-size: 20px; font-family: "Arial", sans-serif; font-weight: 700; padding-left: 35px; }
+#header nav #nav-logo { color: #0481b5; position: relative; display: inline-block; font-size: 20px; font-family: "Arial", sans-serif; padding-left: 35px; }
 #header nav #nav-logo i { font-style: normal; color: #393939; }
-#header nav #nav-logo small { position: absolute; left: 35px; top: 20px; font-size: 16px; font-weight: normal; }
+#header nav #nav-logo small { position: absolute; left: 35px; top: 20px; font-size: 13px; font-weight: normal; }
 #header nav #nav-logo:before { content: 'b'; font-family: 'sltc','sans-serif'; font-size: 34px; width: 20px; display: block; position: absolute; color: #0481b5; left: 0; top: -5px; }
 #header nav #menu-toggle { color: #ccc; padding: 10px; cursor: pointer; -webkit-border-radius: 5px; -moz-border-radius: 5px; -o-border-radius: 5px; -ms-border-radius: 5px; border-radius: 5px; border: solid 1px #fff; background: #fff; }
 #header nav #menu-toggle:hover, #header nav #menu-toggle:focus { border-color: #eee; }

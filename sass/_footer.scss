@@ -1,0 +1,23 @@
+#section-footer{
+  background: $dark_gray;
+  color: #fff !important;
+
+  a{
+    color: #b0b0a6;
+  }
+
+  .heading{
+    background: $darker_gray2;
+    background-size: cover;
+    padding: 30px 0 0;
+
+    a{
+      color: #fff;
+      margin: 0 20px;
+    }
+  }
+  #logo-footer{
+    color: #b0b0a6;
+    font-size: 12px;
+  }
+}

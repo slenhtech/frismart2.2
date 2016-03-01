@@ -1,0 +1,155 @@
+@import "colors";
+@import "functions";
+@import "footer";
+body{
+  font-family: 'OpenSans-Regular', sans-serif !important;
+  background: $light_gray;
+}
+#menu-flotant{
+  background: rgba(#000,0.7);
+  padding: 10px 0;
+
+  #nav-logo{
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    font-size: 17px;
+    font-family: "Arial", sans-serif;
+    padding-left: $logo_pin_width;
+  }
+
+  #nav-logo:before{
+    content: 'b';
+    font-family: 'sltc','sans-serif';
+    font-size: 34px;
+    width: 20px;
+    display: block;
+    position: absolute;
+    color: #fff;
+    left: 0;
+    top:-10px;
+  }
+
+  #menu-toggle{
+    color: #ccc;
+    padding: 10px;
+    cursor: pointer;
+    margin: 0 10px;
+    @include border-radius(5px);
+    border: none;
+    background: none;
+  }
+
+  #menu-toggle:hover,
+  #menu-toggle:focus{
+    border-color: #eee;
+  }
+
+  form{
+    input{
+      height: 35px;
+      border: none;
+    }
+    input:first-of-type{
+      border-radius: 50px 0 0 50px;
+      border-right: solid 1px #ccc;
+    }
+    button{
+      height: 35px;
+      border-radius: 0 50px 50px 0;
+      margin-left: -30px;
+      background: $bleu_frismart;
+      color: #fff;
+    }
+  }
+}
+
+#resultats-head{
+  background: #fff;
+  margin: 15px 0;
+  padding: 20px 0;
+
+  strong{
+    font-size: 22px;
+    font-weight: normal;
+    color: $bleu_frismart;
+  }
+}
+
+#search-results{
+  .entreprise{
+    margin: 10px 0;
+
+    .info{
+      display: block;
+      border-radius: 5px 5px 0 0 ;
+      background-size: cover;
+      height: 200px;
+      padding: 30px 30px;
+      position: relative;
+      overflow: hidden;
+
+      .rate,
+      h3,
+      .description{
+        position: relative;
+        z-index: 2;
+      }
+
+      .rate{
+        .fa-star{
+          color: $yellow;
+        }
+        .fa-star-o{
+          color: #fff;
+        }
+      }
+      h3,
+      .description{
+        color: #fff;
+        text-shadow: 0 1px rgba(#000, 0.5);
+      }
+      h3{
+        font-weight: 600;
+      }
+    }
+    .info:after{
+      content: '';
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 1;
+      border-radius: 5px 5px 0 0;
+      background: rgba(#000,0.4);
+      left: 0;
+      top: 0;
+    }
+    .buttons{
+      background: #fff;
+      padding: 10px 20px;
+      border-radius: 0 0 5px 5px;
+
+      a{
+        display: inline-block;
+        vertical-align: top;
+        padding: 10px 0;
+        margin: 2px 0;
+        width: 60px;
+        color: $bleu_frismart;
+      }
+      .quartier{
+        border-color: #fff;
+        font-size: 14px;
+        font-weight: bold;
+        color: $darker_gray2;
+      }
+      .quartier:hover,
+      .quartier:active,
+      .quartier:focus{
+        background: none;
+        box-shadow: none;
+      }
+    }
+  }
+}
