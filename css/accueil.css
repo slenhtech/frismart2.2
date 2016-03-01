@@ -1,5 +1,7 @@
 a:hover, a:focus { text-decoration: none; }
 
+.padding-0 { padding: 0 !important; }
+
 body { font-family: 'OpenSans-Regular', sans-serif !important; }
 
 @media (max-width: 400px) { .hidden-portrait { display: none; } }
