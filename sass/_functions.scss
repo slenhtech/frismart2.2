@@ -28,3 +28,14 @@ body{
        -o-box-shadow: 0 0 5px $color;
           box-shadow: 0 0 5px $color;
 }
+@mixin linear_gradient(){
+  $color_1: #000;
+  $color_2: #000;
+  $opacity_1: 0;
+  $opacity_2: 0.5;
+  background: -webkit-linear-gradient(rgba($color_1, $opacity_1) 10%,rgba($color_2, $opacity_2));
+  background:    -moz-linear-gradient(rgba($color_1, $opacity_1) 10%,rgba($color_2, $opacity_2));
+  background:     -ms-linear-gradient(rgba($color_1, $opacity_1) 10%,rgba($color_2, $opacity_2));
+  background:      -o-linear-gradient(rgba($color_1, $opacity_1) 10%,rgba($color_2, $opacity_2));
+  background:        -linear-gradient(rgba($color_1, $opacity_1) 10%,rgba($color_2, $opacity_2));
+}
