@@ -20,6 +20,7 @@
 
     <!-- Bootstrap -->
     <link href='fonts/OpenSans-Regular/OpenSans-Regular.css' rel='stylesheet' type='text/css'>
+    <link href='fonts/OpenSans-Bold/OpenSans-Bold.css' rel='stylesheet' type='text/css'>
     <link href="plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
     <link href="plugins/category-icons/category-icons.css" rel="stylesheet">
@@ -42,7 +43,7 @@
     <!-- ============================
            section header
     ============================== -->
-    <section id="header" style="background-image: url('img/stores/2.jpg')">
+    <section id="header" style="background-image: url('img/stores/5.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-sm-7">
@@ -50,8 +51,8 @@
                         <i class="fa fa-certificate fa-lg"></i>
                         4&egrave;me Meilleur resto de Libreville
                     </h5>
-                    <h1>Nom de l'entreprise</h1>
-                    <h4><strong>IT service</strong> - Libeville</h4>
+                    <h1 class="verified osb">Nom de l'entreprise</h1>
+                    <h4><span>IT service</span> - Libeville</h4>
                     <div class="rate">
                         <i class="fa fa-star fa-lg"></i>
                         <i class="fa fa-star fa-lg"></i>
@@ -65,7 +66,7 @@
                         <a href="" target="_blank" class="fa fa-lg fa-facebook-official"></a>
                         <a href="" target="_blank" class="fa fa-lg fa-twitter"></a>
                         <a href="" target="_blank" class="fa fa-lg fa-google-plus"></a>
-                        <a href="" target="_blank" class="fa fa-lg fa-pinterest"></a>
+                        <button data-toggle="tooltip" title="Ajouter aux favoris"  class="fa fa-lg fa-heart-o"></button>
                     </div>
                 </div>
                 <div class="col-sm-5">
@@ -74,15 +75,209 @@
                         <div id="buttons-group">
                             <button data-toggle="tooltip" title="Infos établissement" class="fa fa-home fa-lg"></button>
                             <button data-toggle="tooltip" title="Afficher la carte" class="fa fa-map-marker fa-lg"></button>
-                            <button data-toggle="tooltip" title="visite virtuelle" class="fa fa-camera-retro fa-lg"></button>
+                            <button data-toggle="tooltip" title="visite virtuelle" class="fa fa-video-camera fa-lg"></button>
+                            <button data-toggle="tooltip" title="Vidéo de l'entreprise" class="fa fa-play fa-lg"></button>
                         </div>
                     </div>
 
                 </div>
             </div>
         </div>
-
     </section>
+    <!-- ============================
+                Menu top
+    ============================== -->
+    <section id="menu-top">
+        <div class="container">
+            <div class="row text-center">
+                <a href="" class="col-xs-2"><i class="fa fa-home"></i> Top</a>
+                <a href="" class="col-xs-2"><i class="fa fa-align-justify"></i> Description</a>
+                <a href="" class="col-xs-2"><i class="fa fa-clock-o"></i> Horaires</a>
+                <a href="" class="col-xs-2"><i class="fa fa-list"></i> Contacts</a>
+                <a href="" class="col-xs-2"><i class="fa fa-camera"></i> Photos</a>
+                <a href="" class="col-xs-2"><i class="fa fa-commenting"></i> Reviews</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================
+                Main content
+    ============================== -->
+    <div id="main-content" class="container">
+        <div class="row">
+            <div class="col-sm-9">
+                <!-- ============================
+                        Block description
+                ============================== -->
+                <article id="block-descripion">
+                    <h3>Description</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris sapien nisi, sollicitudin vitae fermentum quis, sodales eget mauris. Phasellus risus lorem, iaculis eu augue quis, sollicitudin viverra nunc. Sed malesuada est et mauris feugiat, ut eleifend felis eleifend.Quisque tincidunt justo et risus posuere, non tempor dui pulvinar. Curabitur lectus erat, cursus sed leo ut.</p>
+                </article>
+
+                <!-- ============================
+                         Block activités
+                ============================== -->
+                <article id="block-activites">
+                    <h3>Activit&eacute;s</h3>
+                    <div class="row">
+                        <span class="col-xs-6 col-sm-4">24 heures</span>
+                        <span class="col-xs-6 col-sm-4">Reservations en ligne</span>
+                        <span class="col-xs-6 col-sm-4">Wifi</span>
+                        <span class="col-xs-6 col-sm-4">Restaurant</span>
+                        <span class="col-xs-6 col-sm-4">Salle de r&eacute;union</span>
+                        <span class="col-xs-6 col-sm-4">Salle de cin&eacute;ma</span>
+                        <span class="col-xs-6 col-sm-4">H&ocirc;tel</span>
+                        <span class="col-xs-6 col-sm-4">Bar</span>
+                    </div>
+                </article>
+
+                <!-- ============================
+                         Block horaires
+                ============================== -->
+                <article id="block-horaires">
+                    <h3>Horaires</h3>
+                    <div id="timetable">
+                        <div class="row">
+                            <div class="col-xs-5">Lundi</div>
+                            <div class="col-xs-7"><p>8:00 - 12:00 / 14:00 - 17:00</p></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-5">Mardi</div>
+                            <div class="col-xs-7"><p>Ferm&eacute;</p></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-5">Mercredi</div>
+                            <div class="col-xs-7"><p>Ferm&eacute;</p></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-5">Jeudi</div>
+                            <div class="col-xs-7"><p>8:00 - 12:00 / 14:00 - 17:00</p></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-5">Vendredi</div>
+                            <div class="col-xs-7"><p>8:00 - 12:00 / 14:00 - 17:00</p></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-5">Samedi</div>
+                            <div class="col-xs-7"><p>8:00 - 12:00 / 14:00 - 17:00</p></div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-5">Dimanche</div>
+                            <div class="col-xs-7"><p>Ferm&eacute;</p></div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ============================
+                         Block contacts
+                ============================== -->
+                <article id="block-contacts">
+                    <h3>Contacts</h3>
+                    <div class="contacts-table">
+                        <div class="row table-row">
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="col-xs-2" data-toggle="tooltip" title="Adresse"><i class="fa fa-home fa-lg"></i></div>
+                                    <div class="col-xs-10"><p>Quartier plaine Orety, apr&egrave;s la mosqu&eacute; d'en haut</p></div>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="col-xs-2" data-toggle="tooltip" title="Coordonnées géographiques"><i class="fa fa-globe fa-lg"></i></div>
+                                    <div class="col-xs-10"><p>0,8944&deg; - 11,0966&deg;</p></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row table-row">
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="col-xs-2" data-toggle="tooltip" title="Numéro de téléphone"><i class="fa fa-phone fa-lg"></i></div>
+                                    <div class="col-xs-10"><p>(+241) 0600 00 00</p></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="col-xs-2" data-toggle="tooltip" title="Numéro secondaire"><i class="fa fa-phone fa-lg"></i></div>
+                                    <div class="col-xs-10"><p>(+241) 06 00 11 88</p></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row table-row">
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="col-xs-2" data-toggle="tooltip" title="Page Facebook"><i class="fa fa-facebook-official fa-lg"></i></div>
+                                    <div class="col-xs-10"><p>facebook.com/page.delentreprise</p></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="col-xs-2" data-toggle="tooltip" title="Compte Twitter"><i class="fa fa-twitter fa-lg"></i></div>
+                                    <div class="col-xs-10"><p>@la_pagedelentreprise</p></div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row table-row">
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="col-xs-2 osb" data-toggle="tooltip" title="Site internet">www.</div>
+                                    <div class="col-xs-10"><p>www.entreprise.com</p></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="row">
+                                    <div class="col-xs-2" data-toggle="tooltip" title="Adresse mail"><i class="fa fa-at fa-lg"></i></div>
+                                    <div class="col-xs-10"><p>info@entreprise.com</p></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- ============================
+                         Block photos
+                ============================== -->
+                <article id="block-photos">
+                    <h3>Photos</h3>
+                </article>
+
+                <!-- ============================
+                         Block products
+                ============================== -->
+                <article id="block-products">
+                    <h3>Nos produits</h3>
+                </article>
+
+                <!-- ============================
+                         Block advert
+                ============================== -->
+                <div class="publicite text-center">
+                    <h1>Publicit&eacute;</h1>
+                </div>
+
+                <!-- ============================
+                         Block reviews
+                ============================== -->
+                <article id="block-reviews">
+                    <h4>Reviews</h4>
+                </article>
+
+                <!-- ============================
+                         Block finances
+                ============================== -->
+                <article id="block-finance-info">
+                    <h3>Informations financi&egrave;res</h3>
+                </article>
+            </div>
+            <div class="col-sm-3">
+                <h3>Aside</h3>
+            </div>
+        </div>
+    </div>
+
     <script src="js/jquery-1.12.1.min.js"></script>
     <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="plugins/holderjs/holder.min.js"></script>

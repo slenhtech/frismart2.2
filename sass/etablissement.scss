@@ -19,11 +19,59 @@ body{
     color: #fff;
 
     .col-sm-7{
+      h5{
+        .fa{
+          font-size: 20px;
+          margin-right: 10px;
+        }
+      }
+      .rate{
+        margin-bottom: 10px;
+
+        span{
+          margin-left: 10px;
+        }
+      }
+
+      .social-networks{
+        a{
+          margin-right: 10px;
+          color: #fff;
+        }
+        button{
+          background: none;
+          border: none;
+          margin-left: 50px;
+        }
+        .fa-heart{
+          color: red;
+        }
+        .fa-heart-o{
+          color: #fff;
+        }
+      }
       h1{
+        position: relative;
         font-size: 34px;
         font-weight: bold;
         text-transform: uppercase;
         margin: 10px 0 20px;
+        text-shadow: 0 1px 2px #393939;
+      }
+      h1.verified:after{
+        content: '\f058';
+        font-family: 'FontAwesome', 'sans-serif';
+        font-weight: 100 !important;
+        position: relative;
+        left: 10px;
+        bottom: 5px;
+        padding: 0;
+        display: inline-block;
+        vertical-align: top;
+        text-align: center;
+        text-shadow: none;
+        font-size: 39px;
+        color: $bleu_frismart;
       }
     }
 
@@ -60,6 +108,7 @@ body{
     }
   }
 }
+
 #header:after{
   content: '';
   position: absolute;
@@ -72,6 +121,120 @@ body{
   z-index: 0;
 }
 
+#menu-top{
+  background: $bleu_frismart;
+
+  .container{
+    a.col-xs-2{
+      padding: 17px 0 20px;
+      color: #fff;
+      font-weight: 700;
+      text-transform: uppercase;
+      font-size: 13px;
+      border-top: solid 3px $bleu_frismart;
+      @include transition(0.5s);
+
+      .fa{
+        margin-right: 5px;
+      }
+    }
+    a.col-md-2:hover{
+      border-color: #fff;
+    }
+  }
+}
+
+#main-content{
+  .col-sm-9{
+    article{
+      padding: 25px;
+      background: #fff;
+      margin: 20px 0;
+
+      h3{
+        display: inline-block;
+        padding:0 0 15px;
+        margin: 0 0 20px;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        font-size: 17px;
+        border-bottom: solid 5px $bleu_frismart;
+      }
+
+    }
+    #block-descripion{
+      p{
+        text-align: justify;
+      }
+    }
+    #block-activites{
+
+      .col-xs-6:before{
+        content: '\f058';
+        font-family: 'FontAwesome', 'sans-serif';
+        margin-right: 10px;
+        color: $bleu_frismart;
+      }
+    }
+    #block-horaires{
+      #timetable{
+        .row{
+          border-top: solid 1px $darker_gray;
+          .col-xs-5,
+          .col-xs-7{
+            padding: 15px;
+          }
+          .col-xs-5{
+            text-transform: uppercase;
+            font-size: 15px;
+            font-weight: bold;
+          }
+          .col-xs-7{
+            p{
+              padding: 2px 0 2px 15px;
+              margin:0;
+              border-left: solid 1px $darker_gray;
+            }
+          }
+        }
+        .row:last-of-type{
+          border-bottom: solid 1px $darker_gray;
+        }
+
+      }
+    }
+    #block-contacts{
+      .contacts-table{
+        .table-row{
+          border-top: solid 1px $darker_gray;
+
+          .col-sm-6{
+            .col-xs-2,
+            .col-xs-10{
+              padding: 15px;
+              overflow: hidden;
+
+              p{
+                margin: 0;
+                padding: 2px 0 2px 15px;
+                border-left: solid 1px $darker_gray;
+              }
+            }
+          }
+        }
+        .table-row:last-of-type{
+          border-bottom: solid 1px $darker_gray;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: $portrait_view) {
+  #menu-top{
+    display: none;
+  }
+}
 @media (max-width: $col_xs) {
   #header {
     padding: 208px 15px 20px;
