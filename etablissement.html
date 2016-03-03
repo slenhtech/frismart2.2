@@ -26,6 +26,10 @@
     <link href="plugins/category-icons/category-icons.css" rel="stylesheet">
     <link href="plugins/sltc-icons/sltc-icons.css" rel="stylesheet">
     <link href="plugins/weather-icons/weather-icons.css" rel="stylesheet">
+    <link href="plugins/owl-carousel/owl.carousel.css" rel="stylesheet">
+    <link href="plugins/owl-carousel/owl.theme.css" rel="stylesheet">
+    <link href="plugins/owl-carousel/owl.transitions.css" rel="stylesheet">
+    <link href="plugins/magnific-popup/magnific-popup.css" rel="stylesheet">
     <link href="css/etablissement.css" rel="stylesheet">
     <link href="favicon.ico" type="image/x-icon" rel="icon"/><link href="favicon.ico" type="image/x-icon" rel="shortcut icon"/>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -84,18 +88,25 @@
             </div>
         </div>
     </section>
+
+    <!-- ============================
+             Backt to top button
+    ============================== -->
+    <div class="back-to-top"><button class="btn fa fa-chevron-up"></button></div>
+
     <!-- ============================
                 Menu top
     ============================== -->
     <section id="menu-top">
         <div class="container">
-            <div class="row text-center">
-                <a href="" class="col-xs-2"><i class="fa fa-home"></i> Top</a>
-                <a href="" class="col-xs-2"><i class="fa fa-align-justify"></i> Description</a>
-                <a href="" class="col-xs-2"><i class="fa fa-clock-o"></i> Horaires</a>
-                <a href="" class="col-xs-2"><i class="fa fa-list"></i> Contacts</a>
-                <a href="" class="col-xs-2"><i class="fa fa-camera"></i> Photos</a>
-                <a href="" class="col-xs-2"><i class="fa fa-commenting"></i> Reviews</a>
+            <button id="menu-top-toggle-button" class="visible-xs btn btn-block"><i class="fa fa-bars"></i> Menu</button>
+            <div class="row" id="menu-top-collapse">
+                <a href="#header" class="col-xs-6 col-sm-2"><i class="fa fa-home"></i> Top</a>
+                <a href="#block-descripion" class="col-xs-6 col-sm-2"><i class="fa fa-align-justify"></i> Description</a>
+                <a href="#block-horaires" class="col-xs-6 col-sm-2"><i class="fa fa-clock-o"></i> Horaires</a>
+                <a href="#block-contacts" class="col-xs-6 col-sm-2"><i class="fa fa-phone"></i> Contacts</a>
+                <a href="#block-photos" class="col-xs-6 col-sm-2"><i class="fa fa-camera"></i> Photos</a>
+                <a href="#block-reviews" class="col-xs-6 col-sm-2"><i class="fa fa-commenting"></i> Reviews</a>
             </div>
         </div>
     </section>
@@ -223,7 +234,7 @@
                         <div class="row table-row">
                             <div class="col-sm-6">
                                 <div class="row">
-                                    <div class="col-xs-2 osb" data-toggle="tooltip" title="Site internet">www.</div>
+                                    <div class="col-xs-2 opsb" data-toggle="tooltip" title="Site internet">www.</div>
                                     <div class="col-xs-10"><p>www.entreprise.com</p></div>
                                 </div>
                             </div>
@@ -242,6 +253,14 @@
                 ============================== -->
                 <article id="block-photos">
                     <h3>Photos</h3>
+                    <div id="photos-etablissement" class="owl-carousel magnific-popup">
+                        <div class="item"><img class="lazyOwl" data-src="img/bar.jpg" alt="Lazy Owl Image"></div>
+                        <div class="item"><img class="lazyOwl" data-src="img/hotel.jpg" alt="Lazy Owl Image"></div>
+                        <div class="item"><img class="lazyOwl" data-src="img/salle-de-sport.jpg" alt="Lazy Owl Image"></div>
+                        <div class="item"><img class="lazyOwl" data-src="img/salon-de-the.jpg" alt="Lazy Owl Image"></div>
+                        <div class="item"><img class="lazyOwl" data-src="img/pharmacie.jpg" alt="Lazy Owl Image"></div>
+                        <div class="item"><img class="lazyOwl" data-src="img/banque.jpg" alt="Lazy Owl Image"></div>
+                    </div>
                 </article>
 
                 <!-- ============================
@@ -249,6 +268,7 @@
                 ============================== -->
                 <article id="block-products">
                     <h3>Nos produits</h3>
+                    <div class="product-gallery"></div>
                 </article>
 
                 <!-- ============================
@@ -281,6 +301,8 @@
     <script src="js/jquery-1.12.1.min.js"></script>
     <script src="plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="plugins/holderjs/holder.min.js"></script>
+    <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
+    <script src="plugins/magnific-popup/jquery.magnific-popup.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

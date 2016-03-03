@@ -5,8 +5,33 @@ a:focus{
 .padding-0{
   padding: 0 !important;
 }
-.osb{
+.opsb{
   font-family: 'OpenSans-Bold',sans-serif;
+}
+*:focus {
+  outline: none !important;
+}
+.back-to-top{
+  display: none;
+
+  button,
+  button:focus{
+    position: fixed;
+    padding: 10px;
+    right: 15px;
+    bottom:15px;
+    background: $dark_gray;
+    color: #fff;
+    opacity: 0.5;
+    z-index: 1000;
+  }
+
+  button:hover,
+  button:active{
+    color: #fff;
+    background: $bleu_frismart;
+    opacity: 1;
+  }
 }
 body{
   font-family: 'OpenSans-Regular', sans-serif !important;
